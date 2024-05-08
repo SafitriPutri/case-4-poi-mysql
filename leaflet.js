@@ -42,7 +42,6 @@ function onMapClick(e) {
 map.on('click', onMapClick);
 
 
-//handleform submit
 const formPost = document.getElementById('formPost');
 
 formPost.addEventListener('submit', async (e) => {
@@ -77,7 +76,6 @@ formPost.addEventListener('submit', async (e) => {
 });
 
 
-//HANDLE FORM UPDATE
 const formUpdate = document.getElementById('formUpdate');
 const modalUpdate = document.getElementById('modalUpdate');
 const submitUpdate = document.getElementById('submitUpdate')
@@ -122,7 +120,3 @@ submitUpdate.addEventListener('click', (e) => {
 
     modalUpdate.classList.add('hidden');
 });
-
-
-
-
