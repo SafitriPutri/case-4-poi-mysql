@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function () {
   fetchData();
 });
@@ -109,7 +108,6 @@ function fetchData() {
 }
 
 
-//handle form delete
 const formDelete = document.getElementById('formDelete')
 formDelete.addEventListener('submit', (e) => {
   const modalDelete = document.getElementById('modalDelete');
